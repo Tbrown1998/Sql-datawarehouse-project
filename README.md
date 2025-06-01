@@ -27,25 +27,23 @@ This project showcases the design and implementation of a **modern SQL data ware
 
 ## 📂 Repository Structure
 
-SQL-Data-Warehouse-project
+data-warehouse-project/
+├── datasets/ # Raw ERP/CRM datasets (CSV)
 │
-├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
+├── docs/ # Architecture & documentation
+│ ├── data_architecture.drawio
+│ ├── data_models.drawio
+│ ├── data_catalog.md
+│ └── naming-conventions.md
 │
-├── docs/                               # Project documentation and architecture details
-│   ├── data_architecture.drawio        # Draw.io file shows the project's architecture
-│   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
-│   ├── data_flow.drawio                # Draw.io file for the data flow diagram
-│   ├── data_models.drawio              # Draw.io file for data models (star schema)
-│   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
+├── scripts/ # ETL pipelines
+│ ├── bronze/ # Raw ingestion
+│ ├── silver/ # Transformation
+│ └── gold/ # Analytics models
 │
-├── scripts/                            # SQL scripts for ETL and transformations
-│   ├── bronze/                         # Scripts for extracting and loading raw data
-│   ├── silver/                         # Scripts for cleaning and transforming data
-│   ├── gold/                           # Scripts for creating analytical models
+├── tests/ # Data quality checks
 │
-├── tests/                              # Test scripts and quality files
-│
-├── README.md                           # Project overview and instructions
+└── README.md # Project overview
 
 ---
 

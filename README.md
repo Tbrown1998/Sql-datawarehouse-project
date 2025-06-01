@@ -23,9 +23,9 @@ This project showcases the design and implementation of a **modern SQL data ware
 - Draw.io for data modeling  
 - Notion for project documentation
 
----
-
 ## 📂 Repository Structure
+
+---
 
 data-warehouse-project/
 ├── datasets/ # Raw ERP/CRM datasets (CSV)

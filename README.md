@@ -1,6 +1,6 @@
 # 🧱 SQL Data Warehouse & Analytics Project
 
-This project showcases the design and implementation of a **modern SQL data warehouse** using the **Medallion Architecture**—Bronze, Silver, and Gold layers. It simulates a real-world data engineering pipeline, from raw data ingestion to business-ready insights.
+This project showcases the design and implementation of a **modern SQL data warehouse** using the **Medallion Architecture** Bronze, Silver, and Gold layers. It simulates a real-world data engineering pipeline, from raw data ingestion to business-ready insights.
 
 ---
 
